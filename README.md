@@ -14,25 +14,25 @@ Here is the interface of the website:
 
 
 # Usage
-Site administrator account 
+#### Site administrator account 
  login: fabio
  password: Test123*
 
-User account already created
+#### User account already created
  login: test
  password: test
 
  login: test2
  password: test2
 
-## On Windows
+### On Windows
 Wamp server must be installed and started
 1. Download or clone the project.
 2. Place the files or the folder containing the file in the wamp directory i.e. C:/wamp/www
 3. Import the clashroyal.sql database into localhost/phpmyadmin/
 4. You must change the root password to access the database. The root password is Test123*
 
-## For the mail sending
+### For the mail sending
 For email sending to work in the "contact" section you must: 
 1. Place the sendmail folder in C:/wamp 
 	The folder contains the sendmail.ini configuration file already configured with gmail. You can change this information if you want.
@@ -42,11 +42,11 @@ sendmail_path ="C:\wamp\sendmail\sendmail\sendmail.exe" ```
 
 # Improvements
 The web site can obviously be improved. 
-*Improved front-end to match the game design
+* Improved front-end to match the game design
 
-*Redesigning the backend using object-oriented programming 
+* Redesigning the backend using object-oriented programming 
 
-*Fully respect the MVC design pattern
+* Fully respect the MVC design pattern
 
 
 For more information on the implementation of the web site and database, you can consult the report (in french).
