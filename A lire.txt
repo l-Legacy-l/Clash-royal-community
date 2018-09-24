@@ -1,0 +1,19 @@
+-Mot de passe root de la base de données = Test123*
+
+-Pour que l'envoie des e-mails fonctionne il faut placer le dossier sendmail dans 
+ C:\wamp
+ Le dossier contient le fichier de configuration sendmail.ini déjà configuré avec gmail.
+ Il suffit ensuite de récupérer le fichier php.ini et de le remplacer ou de modifier le   champ sendmail_path comme ceci: sendmail_path ="C:\wamp\sendmail\sendmail.exe"
+
+ Tutoriel utilisé: https://www.grafikart.fr/blog/mail-local-wamp
+
+-Compte admin du site 
+ login: fabio
+ mdp: Test123*
+
+-Compte utilisateur déjà créé
+ login: test
+ mdp: test
+
+ login: test2
+ mdp: test2
